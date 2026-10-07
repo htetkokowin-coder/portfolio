@@ -875,3 +875,62 @@ body::after {
     width: 30px;
     border-radius: 10px;
 }
+
+/* ==========================================================
+   作品セクション
+========================================================== */
+#works {
+    padding: 120px 100px;
+    background: #111827;
+}
+
+.works-container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.work-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: 0.35s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-color);
+    box-shadow: 0 20px 45px rgba(59, 130, 246, 0.25);
+}
+
+.work-icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--primary-color);
+    font-size: 42px;
+}
+
+.work-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.work-content p {
+    color: var(--paragraph-color);
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
