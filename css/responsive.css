@@ -344,3 +344,29 @@
         aspect-ratio: 1 / 1;
     }
 }
+
+/* Works */
+@media (max-width: 1024px) {
+    #works {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .works-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    #works {
+        padding: 80px 20px;
+    }
+
+    .works-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-card {
+        padding: 30px 20px;
+    }
+}
