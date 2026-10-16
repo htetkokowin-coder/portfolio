@@ -1,57 +1,10 @@
 /* ==========================================================
    Responsive Design
-   PC / Tablet / Smartphone
+   PC / Smartphone
 ========================================================== */
 
-/* Tablet */
-@media (max-width: 1024px) {
-    .header {
-        padding: 20px 40px;
-    }
-
-    .hero {
-        padding: 100px 50px 70px;
-        gap: 40px;
-    }
-
-    .hero-left {
-        max-width: 55%;
-    }
-
-    .hero-left h1 {
-        font-size: 52px;
-    }
-
-    .hero-right img {
-        width: 340px;
-        height: 340px;
-    }
-
-    #about,
-    #skills,
-    #education,
-    #photography,
-    #contact {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .about-container {
-        gap: 50px;
-    }
-
-    .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .timeline-item {
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-}
-
-/* Smartphone */
-@media (max-width: 768px) {
+/* Smartphone only */
+@media (max-width: 600px) {
     .header {
         padding: 16px 20px;
     }
@@ -346,18 +299,7 @@
 }
 
 /* Works */
-@media (max-width: 1024px) {
-    #works {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .works-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     #works {
         padding: 80px 20px;
     }
@@ -368,5 +310,27 @@
 
     .work-card {
         padding: 30px 20px;
+    }
+}
+
+
+/* Google Map: phone layout only */
+@media (max-width: 600px) {
+    .school-map-section {
+        padding: 70px 20px;
+    }
+
+    .school-map-card {
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    .school-map-card iframe {
+        height: 300px;
+    }
+
+    .school-map-link {
+        text-align: center;
+        margin-top: 16px;
     }
 }
