@@ -934,3 +934,46 @@ body::after {
     font-size: 15px;
     margin-bottom: 25px;
 }
+
+
+/* ==========================================================
+   学校の場所 / Google Maps
+========================================================== */
+.school-map-section {
+    padding: 100px;
+    background: #0d1117;
+}
+
+.school-map-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.school-map-card {
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    border-radius: 22px;
+    background: var(--card-bg);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+.school-map-card iframe {
+    display: block;
+    width: 100%;
+    height: 420px;
+    border: 0;
+}
+
+.school-map-link {
+    margin-top: 18px;
+    text-align: right;
+}
+
+.school-map-link a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.school-map-link a:hover {
+    color: #ffffff;
+}
